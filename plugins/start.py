@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "❤️ Good morning Guys 🔥"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '🌟 Good afternoon Friends ✨'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '🎁 Good evening bruh 🍷'
 
 # -------------------------------
 
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/sahil_official_here")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/sahil_official_here/13")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/chat_official_sahil'),
-                                      InlineKeyboardButton("✨ Owner 🪄", url='https://t.me/itz_sahil_official')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/sahil_official_here/79')]
+                                      [[InlineKeyboardButton("❤️ Update Channel 🔥", url="https://t.me/sahil_official_here")],
+                                      [InlineKeyboardButton("😶‍🌫️ Subscribe us ✨", url="https://t.me/sahil_official_here/13")],
+                                      [InlineKeyboardButton("🎁 Support Group 💫", url='https://t.me/chat_official_sahil'),
+                                      InlineKeyboardButton("⚜️ Owner 🥀", url='https://t.me/itz_sahil_official')],
+                                      [InlineKeyboardButton("🍷 Buy Me A Coffee 🥹", url='https://t.me/sahil_official_here/79')]
                                       ]))
         return
     if id:
