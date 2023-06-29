@@ -17,8 +17,8 @@ import os
 
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
+ADMIN = int(os.environ.get("ADMIN", 1702061654))
+bot_username = os.environ.get("BOT_USERNAME","Sahil_FileRenamer_bot")
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Sahil_official_here")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/sahil_official_here/13")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/chat_official_sahil'),
-                                             InlineKeyboardButton("✨ Owner 🪄", url='https://t.me/itz_sahil_official')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/sahil_official_here/79')]
+                                             [[InlineKeyboardButton("❤️ Update Channel 🔥", url="https://t.me/Sahil_official_here")],
+                                              [InlineKeyboardButton("😶‍🌫️ Subscribe us ✨", url="https://t.me/sahil_official_here/13")],
+                                              [InlineKeyboardButton("🎁 Support Group 💫", url='https://t.me/chat_official_sahil'),
+                                             InlineKeyboardButton("⚜️ Owner 🥀", url='https://t.me/itz_sahil_official')],
+                                             [InlineKeyboardButton("🍷 Buy Me A Coffee 🥹", url='https://t.me/sahil_official_here/79')]
                                           ]))
             except:
                 return
