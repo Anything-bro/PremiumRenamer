@@ -52,8 +52,8 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("❤️ Update Channel 🔥", url="https://t.me/sahil_official_here")],
                                       [InlineKeyboardButton("😶‍🌫️ Subscribe us ✨", url="https://t.me/sahil_official_here/13")],
-                                      [InlineKeyboardButton("🎁 Support Group 💫", url='https://t.me/chat_official_sahil'),
-                                      InlineKeyboardButton("⚜️ Owner 🥀", url='https://t.me/itz_sahil_official')],
+                                      [InlineKeyboardButton("🎁 Support Group 🥀", url='https://t.me/chat_official_sahil'),
+                                      InlineKeyboardButton("⚜️ Owner 🎀", url='https://t.me/itz_sahil_official')],
                                       [InlineKeyboardButton("🍷 Buy Me A Coffee 🥹", url='https://t.me/sahil_official_here/79')]
                                       ]))
         return
@@ -65,9 +65,9 @@ async def start(client, message):
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("❤️ Update Channel 🔥", url="https://t.me/Sahil_official_here")],
-                                              [InlineKeyboardButton("😶‍🌫️ Subscribe us ✨", url="https://t.me/sahil_official_here/13")],
-                                              [InlineKeyboardButton("🎁 Support Group 💫", url='https://t.me/chat_official_sahil'),
-                                             InlineKeyboardButton("⚜️ Owner 🥀", url='https://t.me/itz_sahil_official')],
+                                              [InlineKeyboardButton("😶‍🌫️ Subscribe us 🥀", url="https://t.me/sahil_official_here/13")],
+                                              [InlineKeyboardButton("🎁 Support Group ✨", url='https://t.me/chat_official_sahil'),
+                                             InlineKeyboardButton("⚜️ Owner 🎀", url='https://t.me/itz_sahil_official')],
                                              [InlineKeyboardButton("🍷 Buy Me A Coffee 🥹", url='https://t.me/sahil_official_here/79')]
                                           ]))
             except:
@@ -86,8 +86,8 @@ async def start(client, message):
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("❤️ Update Channel 🔥", url="https://t.me/Sahil_Official_here")],
                                           [InlineKeyboardButton("😶‍🌫️ Subscribe us ✨", url="https://sahil_official_here/13")],
-                                          [InlineKeyboardButton("🎁 Support Group 💫", url='https://t.me/chat_official_sahil'),
-                                          InlineKeyboardButton("⚜️ Owner 🥀", url='https://t.me/itz_sahil_official')],
+                                          [InlineKeyboardButton("🎁 Support Group 🥀", url='https://t.me/chat_official_sahil'),
+                                          InlineKeyboardButton("⚜️ Owner 🎀", url='https://t.me/itz_sahil_official')],
                                           [InlineKeyboardButton("🍷 Buy Me A Coffee 🥹", url='https://t.me/sahil_official_here/79')]
                                           ]))
     
@@ -126,11 +126,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://telegram.me/itz_sahil_official')],
-                                                                     [InlineKeyboardButton("🔺 Want this bot 🔺", url='https://t.me/itz_sahil_official')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/sahil_official_here'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Chat_official_here')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/sahil_official_here/79')]
+                                                                     [InlineKeyboardButton("❤️ Contact Developer ✨", url='https://telegram.me/itz_sahil_official')],
+                                                                     [InlineKeyboardButton("🔥 Want this bot 🍷", url='https://t.me/itz_sahil_official')],
+                                                                     [InlineKeyboardButton("🌟 Visit Channel 💥", url='https://t.me/sahil_official_here'),
+                                                                     InlineKeyboardButton("⚜️ Support Group 🎀", url='https://t.me/Chat_official_here')],
+                                                                     [InlineKeyboardButton("🖤 Buy Me A Coffee 🥹", url='https://t.me/sahil_official_here/79')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
