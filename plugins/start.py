@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/sahil_official_here")],
+                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/sahil_official_here/13")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/chat_official_sahil'),
+                                      InlineKeyboardButton("✨ Owner 🪄", url='https://t.me/itz_sahil_official')],
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/sahil_official_here/79')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Sahil_official_here")],
+                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/sahil_official_here/13")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/chat_official_sahil'),
+                                             InlineKeyboardButton("✨ Owner 🪄", url='https://t.me/itz_sahil_official')],
+                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/sahil_official_here/79')]
                                           ]))
             except:
                 return
